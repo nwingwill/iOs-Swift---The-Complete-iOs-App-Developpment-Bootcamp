@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, CurrencyManagerDelegate {
+    
     
     
 
@@ -16,13 +17,17 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var currencyLabel: UILabel!
     @IBOutlet weak var currencyPicker: UIPickerView!
     
-    let coinManager = CoinManager()
+    @IBOutlet weak var rateLabel: UILabel!
+    var coinManager = CoinManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         currencyPicker.dataSource = self
         currencyPicker.delegate = self
+        coinManager.delegate = self
+        
+        self.coinManager.getCoinPrice(for: "USD")
     }
 
     
@@ -46,7 +51,24 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         let selectedCurrency = coinManager.currencyArray[row]
         coinManager.getCoinPrice(for: selectedCurrency)
+        DispatchQueue.main.async {
+            self.coinManager.getCoinPrice(for: selectedCurrency)
+            
+        }
         
+    }
+    
+    func didUpdateCoin(_ coinManager: CoinManager, coinModel: CoinModel) {
+        print("Work")
+        DispatchQueue.main.async {
+            self.currencyLabel.text = coinModel.asset_id_quote
+            self.rateLabel.text = coinModel.rateString
+        }
+
+    }
+    
+    func didFailWidthError(error: Error) {
+        print(error)
     }
 
 }

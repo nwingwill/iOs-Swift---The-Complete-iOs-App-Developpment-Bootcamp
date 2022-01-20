@@ -101,6 +101,7 @@
                         <outlet property="bitcoinLabel" destination="Ocx-jo-FtC" id="vo8-zv-jDm"/>
                         <outlet property="currencyLabel" destination="MAn-y0-nXv" id="rb8-nb-F9Y"/>
                         <outlet property="currencyPicker" destination="ct2-jk-pgH" id="aoZ-fK-QRe"/>
+                        <outlet property="rateLabel" destination="N2a-Ax-iRV" id="yjt-cU-dCy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
