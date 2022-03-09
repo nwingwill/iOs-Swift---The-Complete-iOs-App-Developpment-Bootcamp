@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090FA87527D90CB2000EB5BC /* nwingCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA87427D90CB2000EB5BC /* nwingCardApp.swift */; };
+		090FA87727D90CB2000EB5BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA87627D90CB2000EB5BC /* ContentView.swift */; };
+		090FA87927D90CB6000EB5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA87827D90CB6000EB5BC /* Assets.xcassets */; };
+		090FA87C27D90CB6000EB5BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA87B27D90CB6000EB5BC /* Preview Assets.xcassets */; };
+		090FA88627D90CB7000EB5BC /* nwingCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA88527D90CB7000EB5BC /* nwingCardTests.swift */; };
+		090FA89027D90CB7000EB5BC /* nwingCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA88F27D90CB7000EB5BC /* nwingCardUITests.swift */; };
+		090FA89227D90CB7000EB5BC /* nwingCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA89127D90CB7000EB5BC /* nwingCardUITestsLaunchTests.swift */; };
+		090FA8A027D913F5000EB5BC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090FA89F27D913F4000EB5BC /* Pacifico-Regular.ttf */; };
+		090FA8A127D913F5000EB5BC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090FA89F27D913F4000EB5BC /* Pacifico-Regular.ttf */; };
+		090FA8A227D913F5000EB5BC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090FA89F27D913F4000EB5BC /* Pacifico-Regular.ttf */; };
+		090FA8E027D9313C000EB5BC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA8DF27D9313C000EB5BC /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090FA88227D90CB7000EB5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090FA86927D90CB1000EB5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090FA87027D90CB2000EB5BC;
+			remoteInfo = nwingCard;
+		};
+		090FA88C27D90CB7000EB5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090FA86927D90CB1000EB5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090FA87027D90CB2000EB5BC;
+			remoteInfo = nwingCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090FA87127D90CB2000EB5BC /* nwingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nwingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090FA87427D90CB2000EB5BC /* nwingCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nwingCardApp.swift; sourceTree = "<group>"; };
+		090FA87627D90CB2000EB5BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		090FA87827D90CB6000EB5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090FA87B27D90CB6000EB5BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		090FA88127D90CB7000EB5BC /* nwingCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nwingCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090FA88527D90CB7000EB5BC /* nwingCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nwingCardTests.swift; sourceTree = "<group>"; };
+		090FA88B27D90CB7000EB5BC /* nwingCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nwingCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090FA88F27D90CB7000EB5BC /* nwingCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nwingCardUITests.swift; sourceTree = "<group>"; };
+		090FA89127D90CB7000EB5BC /* nwingCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nwingCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		090FA89F27D913F4000EB5BC /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		090FA8DE27D91AF6000EB5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		090FA8DF27D9313C000EB5BC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090FA86E27D90CB2000EB5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090FA87E27D90CB7000EB5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090FA88827D90CB7000EB5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090FA86827D90CB1000EB5BC = {
+			isa = PBXGroup;
+			children = (
+				090FA87327D90CB2000EB5BC /* nwingCard */,
+				090FA88427D90CB7000EB5BC /* nwingCardTests */,
+				090FA88E27D90CB7000EB5BC /* nwingCardUITests */,
+				090FA87227D90CB2000EB5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090FA87227D90CB2000EB5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090FA87127D90CB2000EB5BC /* nwingCard.app */,
+				090FA88127D90CB7000EB5BC /* nwingCardTests.xctest */,
+				090FA88B27D90CB7000EB5BC /* nwingCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090FA87327D90CB2000EB5BC /* nwingCard */ = {
+			isa = PBXGroup;
+			children = (
+				090FA8DE27D91AF6000EB5BC /* Info.plist */,
+				090FA89E27D913B4000EB5BC /* Fonts */,
+				090FA87427D90CB2000EB5BC /* nwingCardApp.swift */,
+				090FA87627D90CB2000EB5BC /* ContentView.swift */,
+				090FA87827D90CB6000EB5BC /* Assets.xcassets */,
+				090FA87A27D90CB6000EB5BC /* Preview Content */,
+				090FA8DF27D9313C000EB5BC /* InfoView.swift */,
+			);
+			path = nwingCard;
+			sourceTree = "<group>";
+		};
+		090FA87A27D90CB6000EB5BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				090FA87B27D90CB6000EB5BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		090FA88427D90CB7000EB5BC /* nwingCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				090FA88527D90CB7000EB5BC /* nwingCardTests.swift */,
+			);
+			path = nwingCardTests;
+			sourceTree = "<group>";
+		};
+		090FA88E27D90CB7000EB5BC /* nwingCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				090FA88F27D90CB7000EB5BC /* nwingCardUITests.swift */,
+				090FA89127D90CB7000EB5BC /* nwingCardUITestsLaunchTests.swift */,
+			);
+			path = nwingCardUITests;
+			sourceTree = "<group>";
+		};
+		090FA89E27D913B4000EB5BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				090FA89F27D913F4000EB5BC /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090FA87027D90CB2000EB5BC /* nwingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090FA89527D90CB7000EB5BC /* Build configuration list for PBXNativeTarget "nwingCard" */;
+			buildPhases = (
+				090FA86D27D90CB2000EB5BC /* Sources */,
+				090FA86E27D90CB2000EB5BC /* Frameworks */,
+				090FA86F27D90CB2000EB5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nwingCard;
+			productName = nwingCard;
+			productReference = 090FA87127D90CB2000EB5BC /* nwingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		090FA88027D90CB7000EB5BC /* nwingCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090FA89827D90CB7000EB5BC /* Build configuration list for PBXNativeTarget "nwingCardTests" */;
+			buildPhases = (
+				090FA87D27D90CB7000EB5BC /* Sources */,
+				090FA87E27D90CB7000EB5BC /* Frameworks */,
+				090FA87F27D90CB7000EB5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090FA88327D90CB7000EB5BC /* PBXTargetDependency */,
+			);
+			name = nwingCardTests;
+			productName = nwingCardTests;
+			productReference = 090FA88127D90CB7000EB5BC /* nwingCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		090FA88A27D90CB7000EB5BC /* nwingCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090FA89B27D90CB7000EB5BC /* Build configuration list for PBXNativeTarget "nwingCardUITests" */;
+			buildPhases = (
+				090FA88727D90CB7000EB5BC /* Sources */,
+				090FA88827D90CB7000EB5BC /* Frameworks */,
+				090FA88927D90CB7000EB5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090FA88D27D90CB7000EB5BC /* PBXTargetDependency */,
+			);
+			name = nwingCardUITests;
+			productName = nwingCardUITests;
+			productReference = 090FA88B27D90CB7000EB5BC /* nwingCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090FA86927D90CB1000EB5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					090FA87027D90CB2000EB5BC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					090FA88027D90CB7000EB5BC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 090FA87027D90CB2000EB5BC;
+					};
+					090FA88A27D90CB7000EB5BC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 090FA87027D90CB2000EB5BC;
+					};
+				};
+			};
+			buildConfigurationList = 090FA86C27D90CB1000EB5BC /* Build configuration list for PBXProject "nwingCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090FA86827D90CB1000EB5BC;
+			productRefGroup = 090FA87227D90CB2000EB5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090FA87027D90CB2000EB5BC /* nwingCard */,
+				090FA88027D90CB7000EB5BC /* nwingCardTests */,
+				090FA88A27D90CB7000EB5BC /* nwingCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090FA86F27D90CB2000EB5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090FA8A027D913F5000EB5BC /* Pacifico-Regular.ttf in Resources */,
+				090FA87C27D90CB6000EB5BC /* Preview Assets.xcassets in Resources */,
+				090FA87927D90CB6000EB5BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090FA87F27D90CB7000EB5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090FA8A127D913F5000EB5BC /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090FA88927D90CB7000EB5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090FA8A227D913F5000EB5BC /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090FA86D27D90CB2000EB5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090FA87727D90CB2000EB5BC /* ContentView.swift in Sources */,
+				090FA8E027D9313C000EB5BC /* InfoView.swift in Sources */,
+				090FA87527D90CB2000EB5BC /* nwingCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090FA87D27D90CB7000EB5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090FA88627D90CB7000EB5BC /* nwingCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090FA88727D90CB7000EB5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090FA89227D90CB7000EB5BC /* nwingCardUITestsLaunchTests.swift in Sources */,
+				090FA89027D90CB7000EB5BC /* nwingCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090FA88327D90CB7000EB5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090FA87027D90CB2000EB5BC /* nwingCard */;
+			targetProxy = 090FA88227D90CB7000EB5BC /* PBXContainerItemProxy */;
+		};
+		090FA88D27D90CB7000EB5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090FA87027D90CB2000EB5BC /* nwingCard */;
+			targetProxy = 090FA88C27D90CB7000EB5BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		090FA89327D90CB7000EB5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		090FA89427D90CB7000EB5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090FA89627D90CB7000EB5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nwingCard/Preview Content\"";
+				DEVELOPMENT_TEAM = M72945Z4N7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nwingCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.nwingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		090FA89727D90CB7000EB5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nwingCard/Preview Content\"";
+				DEVELOPMENT_TEAM = M72945Z4N7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nwingCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.nwingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		090FA89927D90CB7000EB5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M72945Z4N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.nwingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nwingCard.app/nwingCard";
+			};
+			name = Debug;
+		};
+		090FA89A27D90CB7000EB5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M72945Z4N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.nwingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nwingCard.app/nwingCard";
+			};
+			name = Release;
+		};
+		090FA89C27D90CB7000EB5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M72945Z4N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.nwingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nwingCard;
+			};
+			name = Debug;
+		};
+		090FA89D27D90CB7000EB5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M72945Z4N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.nwingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nwingCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090FA86C27D90CB1000EB5BC /* Build configuration list for PBXProject "nwingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090FA89327D90CB7000EB5BC /* Debug */,
+				090FA89427D90CB7000EB5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090FA89527D90CB7000EB5BC /* Build configuration list for PBXNativeTarget "nwingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090FA89627D90CB7000EB5BC /* Debug */,
+				090FA89727D90CB7000EB5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090FA89827D90CB7000EB5BC /* Build configuration list for PBXNativeTarget "nwingCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090FA89927D90CB7000EB5BC /* Debug */,
+				090FA89A27D90CB7000EB5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090FA89B27D90CB7000EB5BC /* Build configuration list for PBXNativeTarget "nwingCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090FA89C27D90CB7000EB5BC /* Debug */,
+				090FA89D27D90CB7000EB5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090FA86927D90CB1000EB5BC /* Project object */;
+}
