@@ -1,0 +1,17 @@
+platform :ios, '13.0'
+
+target 'Flash Chat iOS13' do
+  
+  use_frameworks!
+  
+  # Pods for Flash Chat iOS13
+  # Efecto maquin a de escribir en texto
+  pod 'CLTypingLabel', '~> 0.4.0'
+  #Fierebase & Google Tools
+  pod 'FirebaseCore', '~> 8.8.0'
+  pod 'FirebaseFirestore', '~> 8.8.0'
+  pod 'Firebase/Auth', '~> 8.8.0'
+  #Keyboard view control
+  pod 'IQKeyboardManagerSwift'
+  
+end
