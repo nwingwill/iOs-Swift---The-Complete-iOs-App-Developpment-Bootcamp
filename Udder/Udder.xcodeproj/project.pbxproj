@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090FA94327D99113000EB5BC /* H4X0R_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA94227D99113000EB5BC /* H4X0R_NewsApp.swift */; };
-		090FA94527D99113000EB5BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA94427D99113000EB5BC /* ContentView.swift */; };
-		090FA94727D9911A000EB5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA94627D9911A000EB5BC /* Assets.xcassets */; };
-		090FA94A27D9911A000EB5BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA94927D9911A000EB5BC /* Preview Assets.xcassets */; };
-		090FA95227D995F1000EB5BC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA95127D995F1000EB5BC /* NetworkManager.swift */; };
-		090FA95427D9986B000EB5BC /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA95327D9986B000EB5BC /* PostData.swift */; };
-		0915A0C427DA5F8000039571 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915A0C327DA5F8000039571 /* DetailView.swift */; };
-		0915A0C627DA707900039571 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915A0C527DA707900039571 /* WebView.swift */; };
-		0915A0CA27DA7AD500039571 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0915A0C927DA7AD500039571 /* .swiftlint.yml */; };
+		0915A11827DB68AF00039571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915A11727DB68AF00039571 /* AppDelegate.swift */; };
+		0915A11A27DB68AF00039571 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915A11927DB68AF00039571 /* SceneDelegate.swift */; };
+		0915A11C27DB68AF00039571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915A11B27DB68AF00039571 /* ViewController.swift */; };
+		0915A11F27DB68AF00039571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0915A11D27DB68AF00039571 /* Main.storyboard */; };
+		0915A12127DB68B200039571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0915A12027DB68B200039571 /* Assets.xcassets */; };
+		0915A12427DB68B200039571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0915A12227DB68B200039571 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		090FA93F27D99113000EB5BC /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		090FA94227D99113000EB5BC /* H4X0R_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_NewsApp.swift; sourceTree = "<group>"; };
-		090FA94427D99113000EB5BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		090FA94627D9911A000EB5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		090FA94927D9911A000EB5BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		090FA95127D995F1000EB5BC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		090FA95327D9986B000EB5BC /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
-		0915A0C327DA5F8000039571 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		0915A0C527DA707900039571 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		0915A0C727DA768A00039571 /* H4X0R News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4X0R News.entitlements"; sourceTree = "<group>"; };
-		0915A0C927DA7AD500039571 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		0915A11427DB68AF00039571 /* Udder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0915A11727DB68AF00039571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0915A11927DB68AF00039571 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0915A11B27DB68AF00039571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0915A11E27DB68AF00039571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0915A12027DB68B200039571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0915A12327DB68B200039571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0915A12527DB68B200039571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		090FA93C27D99112000EB5BC /* Frameworks */ = {
+		0915A11127DB68AF00039571 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,100 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		090FA93627D99112000EB5BC = {
+		0915A10B27DB68AE00039571 = {
 			isa = PBXGroup;
 			children = (
-				090FA94127D99113000EB5BC /* H4X0R News */,
-				090FA94027D99113000EB5BC /* Products */,
+				0915A11627DB68AF00039571 /* Udder */,
+				0915A11527DB68AF00039571 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		090FA94027D99113000EB5BC /* Products */ = {
+		0915A11527DB68AF00039571 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				090FA93F27D99113000EB5BC /* H4X0R News.app */,
+				0915A11427DB68AF00039571 /* Udder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		090FA94127D99113000EB5BC /* H4X0R News */ = {
+		0915A11627DB68AF00039571 /* Udder */ = {
 			isa = PBXGroup;
 			children = (
-				0915A0C727DA768A00039571 /* H4X0R News.entitlements */,
-				0915A0C227DA5F5300039571 /* Views */,
-				090FA95027D995D0000EB5BC /* Models */,
-				090FA94227D99113000EB5BC /* H4X0R_NewsApp.swift */,
-				090FA94627D9911A000EB5BC /* Assets.xcassets */,
-				090FA94827D9911A000EB5BC /* Preview Content */,
-				0915A0C927DA7AD500039571 /* .swiftlint.yml */,
+				0915A11727DB68AF00039571 /* AppDelegate.swift */,
+				0915A11927DB68AF00039571 /* SceneDelegate.swift */,
+				0915A11B27DB68AF00039571 /* ViewController.swift */,
+				0915A11D27DB68AF00039571 /* Main.storyboard */,
+				0915A12027DB68B200039571 /* Assets.xcassets */,
+				0915A12227DB68B200039571 /* LaunchScreen.storyboard */,
+				0915A12527DB68B200039571 /* Info.plist */,
 			);
-			path = "H4X0R News";
-			sourceTree = "<group>";
-		};
-		090FA94827D9911A000EB5BC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				090FA94927D9911A000EB5BC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		090FA95027D995D0000EB5BC /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				090FA95127D995F1000EB5BC /* NetworkManager.swift */,
-				090FA95327D9986B000EB5BC /* PostData.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		0915A0C227DA5F5300039571 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				090FA94427D99113000EB5BC /* ContentView.swift */,
-				0915A0C327DA5F8000039571 /* DetailView.swift */,
-				0915A0C527DA707900039571 /* WebView.swift */,
-			);
-			name = Views;
+			path = Udder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		090FA93E27D99112000EB5BC /* H4X0R News */ = {
+		0915A11327DB68AF00039571 /* Udder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 090FA94D27D9911A000EB5BC /* Build configuration list for PBXNativeTarget "H4X0R News" */;
+			buildConfigurationList = 0915A12827DB68B200039571 /* Build configuration list for PBXNativeTarget "Udder" */;
 			buildPhases = (
-				090FA93B27D99112000EB5BC /* Sources */,
-				090FA93C27D99112000EB5BC /* Frameworks */,
-				090FA93D27D99112000EB5BC /* Resources */,
-				0915A0C827DA79C100039571 /* Run SwiftLint Script */,
+				0915A11027DB68AF00039571 /* Sources */,
+				0915A11127DB68AF00039571 /* Frameworks */,
+				0915A11227DB68AF00039571 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "H4X0R News";
-			productName = "H4X0R News";
-			productReference = 090FA93F27D99113000EB5BC /* H4X0R News.app */;
+			name = Udder;
+			productName = Udder;
+			productReference = 0915A11427DB68AF00039571 /* Udder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		090FA93727D99112000EB5BC /* Project object */ = {
+		0915A10C27DB68AE00039571 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					090FA93E27D99112000EB5BC = {
+					0915A11327DB68AF00039571 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 090FA93A27D99112000EB5BC /* Build configuration list for PBXProject "H4X0R News" */;
+			buildConfigurationList = 0915A10F27DB68AE00039571 /* Build configuration list for PBXProject "Udder" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,68 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 090FA93627D99112000EB5BC;
-			productRefGroup = 090FA94027D99113000EB5BC /* Products */;
+			mainGroup = 0915A10B27DB68AE00039571;
+			productRefGroup = 0915A11527DB68AF00039571 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				090FA93E27D99112000EB5BC /* H4X0R News */,
+				0915A11327DB68AF00039571 /* Udder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		090FA93D27D99112000EB5BC /* Resources */ = {
+		0915A11227DB68AF00039571 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0915A0CA27DA7AD500039571 /* .swiftlint.yml in Resources */,
-				090FA94A27D9911A000EB5BC /* Preview Assets.xcassets in Resources */,
-				090FA94727D9911A000EB5BC /* Assets.xcassets in Resources */,
+				0915A12427DB68B200039571 /* LaunchScreen.storyboard in Resources */,
+				0915A12127DB68B200039571 /* Assets.xcassets in Resources */,
+				0915A11F27DB68AF00039571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0915A0C827DA79C100039571 /* Run SwiftLint Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run SwiftLint Script";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		090FA93B27D99112000EB5BC /* Sources */ = {
+		0915A11027DB68AF00039571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090FA95227D995F1000EB5BC /* NetworkManager.swift in Sources */,
-				090FA95427D9986B000EB5BC /* PostData.swift in Sources */,
-				090FA94527D99113000EB5BC /* ContentView.swift in Sources */,
-				0915A0C627DA707900039571 /* WebView.swift in Sources */,
-				0915A0C427DA5F8000039571 /* DetailView.swift in Sources */,
-				090FA94327D99113000EB5BC /* H4X0R_NewsApp.swift in Sources */,
+				0915A11C27DB68AF00039571 /* ViewController.swift in Sources */,
+				0915A11827DB68AF00039571 /* AppDelegate.swift in Sources */,
+				0915A11A27DB68AF00039571 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		0915A11D27DB68AF00039571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0915A11E27DB68AF00039571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0915A12227DB68B200039571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0915A12327DB68B200039571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		090FA94B27D9911A000EB5BC /* Debug */ = {
+		0915A12627DB68B200039571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		090FA94C27D9911A000EB5BC /* Release */ = {
+		0915A12727DB68B200039571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,94 +282,84 @@
 			};
 			name = Release;
 		};
-		090FA94E27D9911A000EB5BC /* Debug */ = {
+		0915A12927DB68B200039571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "H4X0R News/H4X0R News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News/Preview Content\"";
 				DEVELOPMENT_TEAM = M72945Z4N7;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Udder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nwingshadows.H4X0R-News";
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		090FA94F27D9911A000EB5BC /* Release */ = {
+		0915A12A27DB68B200039571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "H4X0R News/H4X0R News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News/Preview Content\"";
 				DEVELOPMENT_TEAM = M72945Z4N7;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Udder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nwingshadows.H4X0R-News";
+				PRODUCT_BUNDLE_IDENTIFIER = nwingshadows.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		090FA93A27D99112000EB5BC /* Build configuration list for PBXProject "H4X0R News" */ = {
+		0915A10F27DB68AE00039571 /* Build configuration list for PBXProject "Udder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				090FA94B27D9911A000EB5BC /* Debug */,
-				090FA94C27D9911A000EB5BC /* Release */,
+				0915A12627DB68B200039571 /* Debug */,
+				0915A12727DB68B200039571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		090FA94D27D9911A000EB5BC /* Build configuration list for PBXNativeTarget "H4X0R News" */ = {
+		0915A12827DB68B200039571 /* Build configuration list for PBXNativeTarget "Udder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				090FA94E27D9911A000EB5BC /* Debug */,
-				090FA94F27D9911A000EB5BC /* Release */,
+				0915A12927DB68B200039571 /* Debug */,
+				0915A12A27DB68B200039571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 090FA93727D99112000EB5BC /* Project object */;
+	rootObject = 0915A10C27DB68AE00039571 /* Project object */;
 }

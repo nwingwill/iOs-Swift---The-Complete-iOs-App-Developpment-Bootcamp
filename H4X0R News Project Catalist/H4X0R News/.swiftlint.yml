@@ -1,0 +1,4 @@
+type_name:
+    allowed_symbols: [_]
+unused_closure_parameter:
+    

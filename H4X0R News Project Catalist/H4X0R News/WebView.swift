@@ -11,30 +11,18 @@ import WebKit
 
 /// Crear web View
 
-struct WebView : UIViewRepresentable {
+struct WebView: UIViewRepresentable {
+    let urlString: String?
 
-    
-    
-    let urlString : String?
-    
-//    func makeUIView(context: UIViewRepresentableContext<WebView>) -> some WebView.UIViewType {
-//
-//        return WKWebView()
-//
-//    }
     func makeUIView(context: Context) -> WKWebView {
         return WKWebView()
     }
-    
     func updateUIView(_ uiView: WKWebView, context: Context) {
-        
         if let safeString = urlString {
             if let url  = URL(string: safeString) {
                 let request = URLRequest(url: url)
                 uiView.load(request)
             }
         }
-        
     }
-    
 }
