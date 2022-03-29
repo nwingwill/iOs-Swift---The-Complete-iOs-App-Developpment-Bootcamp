@@ -22,7 +22,7 @@ struct ContentView: View {
                                 .stroke(Color.white, lineWidth: 5)
                     )
                 Text("Nestor Blanco")
-                    .font(Font.custom("Pacifico-Regular", size: 40))
+//                    .font(Font.custom("Pacifico-Regular", size: 40))
                     .bold()
                     .foregroundColor(.white)
                 Text("iOs Developer")
