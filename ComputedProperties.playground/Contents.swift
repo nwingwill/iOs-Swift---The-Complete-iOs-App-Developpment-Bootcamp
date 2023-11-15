@@ -1,8 +1,33 @@
 import UIKit
 
-let pizzaInches: Int = 12
-let numberOfPeople: Int = 6
-let slicePerPerson: Int = 5
+//Prpiedad observable
+var pizzaInches: Int = 12 {
+    
+    willSet {
+        
+        print(newValue)
+        
+    }
+    
+    didSet {
+        
+        
+        if pizzaInches >= 18 {
+            
+            print("Invalid size specified, pizzaInInches set to 18")
+            pizzaInches = 18
+            
+        }
+        
+    }
+    
+}
+
+pizzaInches = 33
+
+
+var numberOfPeople: Int = 6
+var slicePerPerson: Int = 5
 
 //Getter ocurre tantas veces como se modifique el valor asignado al return
 var numberOfSlices: Int {
@@ -23,6 +48,13 @@ var numberOfPizza: Int {
         
         let numberOfPeopleFedPerPizza = numberOfSlices / slicePerPerson
         return numberOfPeople / numberOfPeopleFedPerPizza
+    }
+    
+    set {
+        
+        let totalSlices = numberOfSlices * newValue
+        numberOfPeople = totalSlices / slicePerPerson
+        
     }
     
 }
